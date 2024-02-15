@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Jonathan Szarak</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-<long string>" crossorigin="anonymous" />
+
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-tab">Home</a>
+        <a href="about.html" class="nav-tab">About</a>
+        <a href="contact.html" class="nav-tab">Contact</a>
+      </nav>
+      
+  <br>
+
+  <div class="content">
+    <div class="main-box">
+      <h1>Welcome</h1>
+      <p>I am Jonathan Szarak, a 13 year old developer from Hamilton, Ontario.</p>
+    </div>
+  </div>
+  <div class="content">
+    <div class="main-box">
+        <h1>Introduction</h1>
+      <p>I am attending Westmount Secondary School starting September 2024,<br>and hope to focus on computer science and technology.</p>
+      <p>In my spare time, I enjoy playing sports, listening to and producing music,<br> and playing and developing video games.</p>
+    </div>
+  </div>
+  
+
+  <footer class="footer">
+    <div class="social-links">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:youremail@example.com"><i class="far fa-envelope"></i></a>
+      <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
+    </div>
+    <p>&copy; 2024 Jonathan Szarak. All rights reserved.</p>
+  </footer>
+  
+
+  <script>
+    window.onload = function() {
+      const gradients = [
+        'linear-gradient(135deg, #10337f, #7f27a8)', // Dark blue to purple
+        'linear-gradient(135deg, #ff6b6b, #ffa78c, #ff6ec4)', // Red to orange with some pink
+        'linear-gradient(135deg, #22c1c3, #fdbb2d)' // Green to blue
+      ];
+      const randomGradient = gradients[Math.floor(Math.random() * gradients.length)];
+      document.body.style.background = randomGradient;
+    };
+  </script>
+</body>
+</html>

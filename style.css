@@ -1,0 +1,148 @@
+/* Global styles */
+html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #10337f, #7f27a8);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.5s ease;
+    height: 100%;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav-tab {
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    border: none;
+    position: relative;
+  }
+  
+  .nav-tab::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-tab:hover::after {
+    width: 100%;
+  }
+  
+  /* Content styles */
+  .content {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .main-box {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Footer styles */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #ffffff; /* Add top border */
+  }
+  
+  /* Additional styling for social links in footer */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    color: #ffffff;
+    margin: 0 10px;
+  }
+  
+  .social-links a:hover {
+    color: #cccccc;
+  }
+  
+  /* Contact form styles */
+  .contact-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form label {
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    width: 80%;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #cccccc;
+  }
+  
+  /* About page specific styles */
+  .about-box {
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .about-section {
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 5px;
+  }
+  
